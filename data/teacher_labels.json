@@ -1,0 +1,2252 @@
+{
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:0": {
+"label": "space",
+"in": 143,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:1": {
+"label": "graphics",
+"in": 194,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:2": {
+"label": "med",
+"in": 231,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:3": {
+"label": "graphics",
+"in": 222,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:4": {
+"label": "space",
+"in": 247,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:5": {
+"label": "space",
+"in": 222,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:6": {
+"label": "autos",
+"in": 251,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:7": {
+"label": "graphics",
+"in": 195,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:8": {
+"label": "autos",
+"in": 257,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:9": {
+"label": "autos",
+"in": 268,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:10": {
+"label": "med",
+"in": 108,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:11": {
+"label": "graphics",
+"in": 244,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:12": {
+"label": "space",
+"in": 228,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:13": {
+"label": "space",
+"in": 238,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:14": {
+"label": "autos",
+"in": 203,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:15": {
+"label": "autos",
+"in": 248,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:16": {
+"label": "med",
+"in": 251,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:17": {
+"label": "space",
+"in": 148,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:18": {
+"label": "space",
+"in": 238,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:19": {
+"label": "space",
+"in": 214,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:20": {
+"label": "autos",
+"in": 117,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:21": {
+"label": "space",
+"in": 262,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:22": {
+"label": "med",
+"in": 139,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:23": {
+"label": "autos",
+"in": 134,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:24": {
+"label": "med",
+"in": 226,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:25": {
+"label": "space",
+"in": 156,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:26": {
+"label": "graphics",
+"in": 238,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:27": {
+"label": "med",
+"in": 250,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:28": {
+"label": "graphics",
+"in": 287,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:29": {
+"label": "med",
+"in": 147,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:30": {
+"label": "graphics",
+"in": 168,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:31": {
+"label": "med",
+"in": 123,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:32": {
+"label": "autos",
+"in": 102,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:33": {
+"label": "graphics",
+"in": 194,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:34": {
+"label": "graphics",
+"in": 202,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:35": {
+"label": "space",
+"in": 246,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:36": {
+"label": "space",
+"in": 241,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:37": {
+"label": "space",
+"in": 262,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:38": {
+"label": "space",
+"in": 272,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:39": {
+"label": "med",
+"in": 231,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:40": {
+"label": "autos",
+"in": 163,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:41": {
+"label": "med",
+"in": 200,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:42": {
+"label": "autos",
+"in": 249,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:43": {
+"label": "med",
+"in": 209,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:44": {
+"label": "autos",
+"in": 238,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:45": {
+"label": "space",
+"in": 206,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:46": {
+"label": "graphics",
+"in": 162,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:47": {
+"label": "autos",
+"in": 252,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:48": {
+"label": "med",
+"in": 150,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:49": {
+"label": "graphics",
+"in": 200,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:50": {
+"label": "med",
+"in": 179,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:51": {
+"label": "space",
+"in": 240,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:52": {
+"label": "graphics",
+"in": 179,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:53": {
+"label": "autos",
+"in": 151,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:54": {
+"label": "graphics",
+"in": 356,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:55": {
+"label": "med",
+"in": 259,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:56": {
+"label": "med",
+"in": 186,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:57": {
+"label": "autos",
+"in": 118,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:58": {
+"label": "space",
+"in": 250,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:59": {
+"label": "autos",
+"in": 147,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:60": {
+"label": "graphics",
+"in": 266,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:61": {
+"label": "graphics",
+"in": 269,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:62": {
+"label": "autos",
+"in": 142,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:63": {
+"label": "med",
+"in": 466,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:64": {
+"label": "space",
+"in": 150,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:65": {
+"label": "med",
+"in": 237,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:66": {
+"label": "med",
+"in": 220,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:67": {
+"label": "graphics",
+"in": 151,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:68": {
+"label": "autos",
+"in": 123,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:69": {
+"label": "autos",
+"in": 231,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:70": {
+"label": "autos",
+"in": 172,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:71": {
+"label": "graphics",
+"in": 303,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:72": {
+"label": "autos",
+"in": 239,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:73": {
+"label": "autos",
+"in": 306,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:74": {
+"label": "med",
+"in": 119,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:75": {
+"label": "graphics",
+"in": 266,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:76": {
+"label": "autos",
+"in": 253,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:77": {
+"label": "autos",
+"in": 116,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:78": {
+"label": "space",
+"in": 123,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:79": {
+"label": "graphics",
+"in": 163,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:80": {
+"label": "med",
+"in": 248,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:81": {
+"label": "med",
+"in": 234,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:82": {
+"label": "space",
+"in": 227,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:83": {
+"label": "autos",
+"in": 117,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:84": {
+"label": "med",
+"in": 256,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:85": {
+"label": "graphics",
+"in": 126,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:86": {
+"label": "graphics",
+"in": 110,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:87": {
+"label": "graphics",
+"in": 184,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:88": {
+"label": "space",
+"in": 249,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:89": {
+"label": "autos",
+"in": 234,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:90": {
+"label": "med",
+"in": 152,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:91": {
+"label": "autos",
+"in": 261,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:92": {
+"label": "space",
+"in": 268,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:93": {
+"label": "autos",
+"in": 128,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:94": {
+"label": "med",
+"in": 203,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:95": {
+"label": "autos",
+"in": 169,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:96": {
+"label": "graphics",
+"in": 109,
+"out": 8
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:97": {
+"label": "autos",
+"in": 177,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:98": {
+"label": "med",
+"in": 244,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:99": {
+"label": "autos",
+"in": 148,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:100": {
+"label": "med",
+"in": 207,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:101": {
+"label": "space",
+"in": 260,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:102": {
+"label": "autos",
+"in": 223,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:103": {
+"label": "space",
+"in": 205,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:104": {
+"label": "graphics",
+"in": 121,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:105": {
+"label": "graphics",
+"in": 215,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:106": {
+"label": "autos",
+"in": 150,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:107": {
+"label": "graphics",
+"in": 137,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:108": {
+"label": "autos",
+"in": 249,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:109": {
+"label": "autos",
+"in": 227,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:110": {
+"label": "med",
+"in": 216,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:111": {
+"label": "graphics",
+"in": 255,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:112": {
+"label": "med",
+"in": 255,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:113": {
+"label": "autos",
+"in": 191,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:114": {
+"label": "graphics",
+"in": 254,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:115": {
+"label": "space",
+"in": 268,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:116": {
+"label": "autos",
+"in": 120,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:117": {
+"label": "graphics",
+"in": 122,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:118": {
+"label": "autos",
+"in": 265,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:119": {
+"label": "graphics",
+"in": 289,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:120": {
+"label": "med",
+"in": 269,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:121": {
+"label": "autos",
+"in": 240,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:122": {
+"label": "autos",
+"in": 191,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:123": {
+"label": "graphics",
+"in": 219,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:124": {
+"label": "med",
+"in": 121,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:125": {
+"label": "autos",
+"in": 249,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:126": {
+"label": "graphics",
+"in": 126,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:127": {
+"label": "graphics",
+"in": 147,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:128": {
+"label": "graphics",
+"in": 169,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:129": {
+"label": "space",
+"in": 140,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:130": {
+"label": "space",
+"in": 188,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:131": {
+"label": "autos",
+"in": 153,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:132": {
+"label": "graphics",
+"in": 256,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:133": {
+"label": "autos",
+"in": 147,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:134": {
+"label": "med",
+"in": 130,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:135": {
+"label": "graphics",
+"in": 181,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:136": {
+"label": "autos",
+"in": 123,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:137": {
+"label": "graphics",
+"in": 186,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:138": {
+"label": "graphics",
+"in": 126,
+"out": 8
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:139": {
+"label": "autos",
+"in": 280,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:140": {
+"label": "space",
+"in": 238,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:141": {
+"label": "graphics",
+"in": 137,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:142": {
+"label": "space",
+"in": 225,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:143": {
+"label": "autos",
+"in": 140,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:144": {
+"label": "graphics",
+"in": 254,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:145": {
+"label": "space",
+"in": 152,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:146": {
+"label": "med",
+"in": 271,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:147": {
+"label": "graphics",
+"in": 145,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:148": {
+"label": "autos",
+"in": 129,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:149": {
+"label": "space",
+"in": 234,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:150": {
+"label": "graphics",
+"in": 236,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:151": {
+"label": "graphics",
+"in": 163,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:152": {
+"label": "med",
+"in": 226,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:153": {
+"label": "med",
+"in": 223,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:154": {
+"label": "space",
+"in": 171,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:155": {
+"label": "graphics",
+"in": 234,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:156": {
+"label": "space",
+"in": 349,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:157": {
+"label": "space",
+"in": 244,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:158": {
+"label": "space",
+"in": 242,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:159": {
+"label": "autos",
+"in": 233,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:160": {
+"label": "graphics",
+"in": 109,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:161": {
+"label": "med",
+"in": 245,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:162": {
+"label": "autos",
+"in": 245,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:163": {
+"label": "autos",
+"in": 137,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:164": {
+"label": "space",
+"in": 261,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:165": {
+"label": "space",
+"in": 199,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:166": {
+"label": "space",
+"in": 230,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:167": {
+"label": "space",
+"in": 216,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:168": {
+"label": "autos",
+"in": 227,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:169": {
+"label": "med",
+"in": 255,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:170": {
+"label": "space",
+"in": 219,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:171": {
+"label": "med",
+"in": 242,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:172": {
+"label": "graphics",
+"in": 337,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:173": {
+"label": "med",
+"in": 250,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:174": {
+"label": "graphics",
+"in": 210,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:175": {
+"label": "graphics",
+"in": 129,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:176": {
+"label": "graphics",
+"in": 281,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:177": {
+"label": "med",
+"in": 264,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:178": {
+"label": "autos",
+"in": 225,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:179": {
+"label": "space",
+"in": 254,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:180": {
+"label": "graphics",
+"in": 203,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:181": {
+"label": "space",
+"in": 234,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:182": {
+"label": "med",
+"in": 182,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:183": {
+"label": "med",
+"in": 228,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:184": {
+"label": "autos",
+"in": 241,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:185": {
+"label": "autos",
+"in": 291,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:186": {
+"label": "space",
+"in": 245,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:187": {
+"label": "space",
+"in": 346,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:188": {
+"label": "autos",
+"in": 124,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:189": {
+"label": "space",
+"in": 228,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:190": {
+"label": "med",
+"in": 229,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:191": {
+"label": "autos",
+"in": 220,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:192": {
+"label": "autos",
+"in": 174,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:193": {
+"label": "space",
+"in": 135,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:194": {
+"label": "space",
+"in": 217,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:195": {
+"label": "med",
+"in": 150,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:196": {
+"label": "graphics",
+"in": 133,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:197": {
+"label": "space",
+"in": 304,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:198": {
+"label": "space",
+"in": 238,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:199": {
+"label": "space",
+"in": 141,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:200": {
+"label": "space",
+"in": 219,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:201": {
+"label": "autos",
+"in": 113,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:202": {
+"label": "graphics",
+"in": 122,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:203": {
+"label": "graphics",
+"in": 108,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:204": {
+"label": "autos",
+"in": 163,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:205": {
+"label": "med",
+"in": 120,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:206": {
+"label": "graphics",
+"in": 234,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:207": {
+"label": "space",
+"in": 166,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:208": {
+"label": "autos",
+"in": 133,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:209": {
+"label": "autos",
+"in": 131,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:210": {
+"label": "autos",
+"in": 131,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:211": {
+"label": "graphics",
+"in": 180,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:212": {
+"label": "med",
+"in": 155,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:213": {
+"label": "graphics",
+"in": 179,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:214": {
+"label": "med",
+"in": 182,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:215": {
+"label": "med",
+"in": 118,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:216": {
+"label": "med",
+"in": 240,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:217": {
+"label": "med",
+"in": 271,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:218": {
+"label": "space",
+"in": 122,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:219": {
+"label": "med",
+"in": 177,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:220": {
+"label": "graphics",
+"in": 179,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:221": {
+"label": "med",
+"in": 217,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:222": {
+"label": "autos",
+"in": 172,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:223": {
+"label": "autos",
+"in": 263,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:224": {
+"label": "autos",
+"in": 186,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:225": {
+"label": "graphics",
+"in": 176,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:226": {
+"label": "autos",
+"in": 136,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:227": {
+"label": "autos",
+"in": 200,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:228": {
+"label": "autos",
+"in": 246,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:229": {
+"label": "graphics",
+"in": 340,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:230": {
+"label": "med",
+"in": 231,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:231": {
+"label": "med",
+"in": 163,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:232": {
+"label": "autos",
+"in": 153,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:233": {
+"label": "space",
+"in": 124,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:234": {
+"label": "med",
+"in": 255,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:235": {
+"label": "autos",
+"in": 159,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:236": {
+"label": "space",
+"in": 264,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:237": {
+"label": "autos",
+"in": 132,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:238": {
+"label": "graphics",
+"in": 133,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:239": {
+"label": "autos",
+"in": 220,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:240": {
+"label": "med",
+"in": 207,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:241": {
+"label": "graphics",
+"in": 338,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:242": {
+"label": "space",
+"in": 254,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:243": {
+"label": "autos",
+"in": 259,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:244": {
+"label": "graphics",
+"in": 266,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:245": {
+"label": "graphics",
+"in": 138,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:246": {
+"label": "space",
+"in": 121,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:247": {
+"label": "graphics",
+"in": 135,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:248": {
+"label": "space",
+"in": 155,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:249": {
+"label": "graphics",
+"in": 128,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:250": {
+"label": "med",
+"in": 216,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:251": {
+"label": "med",
+"in": 179,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:252": {
+"label": "space",
+"in": 245,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:253": {
+"label": "autos",
+"in": 244,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:254": {
+"label": "autos",
+"in": 246,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:255": {
+"label": "graphics",
+"in": 173,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:256": {
+"label": "autos",
+"in": 249,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:257": {
+"label": "med",
+"in": 251,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:258": {
+"label": "space",
+"in": 220,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:259": {
+"label": "med",
+"in": 229,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:260": {
+"label": "med",
+"in": 165,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:261": {
+"label": "autos",
+"in": 232,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:262": {
+"label": "space",
+"in": 202,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:263": {
+"label": "autos",
+"in": 117,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:264": {
+"label": "med",
+"in": 314,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:265": {
+"label": "space",
+"in": 226,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:266": {
+"label": "med",
+"in": 155,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:267": {
+"label": "space",
+"in": 282,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:268": {
+"label": "med",
+"in": 244,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:269": {
+"label": "med",
+"in": 229,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:270": {
+"label": "graphics",
+"in": 214,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:271": {
+"label": "med",
+"in": 173,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:272": {
+"label": "graphics",
+"in": 145,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:273": {
+"label": "space",
+"in": 126,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:274": {
+"label": "graphics",
+"in": 196,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:275": {
+"label": "autos",
+"in": 338,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:276": {
+"label": "med",
+"in": 123,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:277": {
+"label": "med",
+"in": 138,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:278": {
+"label": "space",
+"in": 262,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:279": {
+"label": "space",
+"in": 152,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:280": {
+"label": "autos",
+"in": 143,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:281": {
+"label": "space",
+"in": 183,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:282": {
+"label": "med",
+"in": 251,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:283": {
+"label": "graphics",
+"in": 102,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:284": {
+"label": "autos",
+"in": 170,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:285": {
+"label": "graphics",
+"in": 204,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:286": {
+"label": "med",
+"in": 132,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:287": {
+"label": "autos",
+"in": 130,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:288": {
+"label": "space",
+"in": 240,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:289": {
+"label": "graphics",
+"in": 222,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:290": {
+"label": "space",
+"in": 224,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:291": {
+"label": "autos",
+"in": 248,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:292": {
+"label": "autos",
+"in": 174,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:293": {
+"label": "med",
+"in": 304,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:294": {
+"label": "med",
+"in": 250,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:295": {
+"label": "space",
+"in": 137,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:296": {
+"label": "med",
+"in": 272,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:297": {
+"label": "autos",
+"in": 161,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:298": {
+"label": "med",
+"in": 137,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:train:299": {
+"label": "graphics",
+"in": 207,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:0": {
+"label": "graphics",
+"in": 201,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:1": {
+"label": "autos",
+"in": 242,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:2": {
+"label": "graphics",
+"in": 124,
+"out": 8
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:3": {
+"label": "space",
+"in": 224,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:4": {
+"label": "med",
+"in": 276,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:5": {
+"label": "med",
+"in": 248,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:6": {
+"label": "med",
+"in": 242,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:7": {
+"label": "med",
+"in": 111,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:8": {
+"label": "med",
+"in": 175,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:9": {
+"label": "graphics",
+"in": 103,
+"out": 8
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:10": {
+"label": "space",
+"in": 307,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:11": {
+"label": "graphics",
+"in": 126,
+"out": 8
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:12": {
+"label": "graphics",
+"in": 231,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:13": {
+"label": "space",
+"in": 232,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:14": {
+"label": "med",
+"in": 223,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:15": {
+"label": "autos",
+"in": 121,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:16": {
+"label": "autos",
+"in": 142,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:17": {
+"label": "graphics",
+"in": 155,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:18": {
+"label": "graphics",
+"in": 146,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:19": {
+"label": "med",
+"in": 189,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:20": {
+"label": "space",
+"in": 221,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:21": {
+"label": "graphics",
+"in": 131,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:22": {
+"label": "med",
+"in": 163,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:23": {
+"label": "med",
+"in": 161,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:24": {
+"label": "med",
+"in": 118,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:25": {
+"label": "med",
+"in": 181,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:26": {
+"label": "med",
+"in": 211,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:27": {
+"label": "space",
+"in": 168,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:28": {
+"label": "space",
+"in": 162,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:29": {
+"label": "space",
+"in": 225,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:30": {
+"label": "space",
+"in": 256,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:31": {
+"label": "graphics",
+"in": 176,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:32": {
+"label": "autos",
+"in": 216,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:33": {
+"label": "autos",
+"in": 220,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:34": {
+"label": "med",
+"in": 258,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:35": {
+"label": "autos",
+"in": 206,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:36": {
+"label": "med",
+"in": 268,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:37": {
+"label": "graphics",
+"in": 264,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:38": {
+"label": "med",
+"in": 143,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:39": {
+"label": "graphics",
+"in": 234,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:40": {
+"label": "space",
+"in": 273,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:41": {
+"label": "space",
+"in": 146,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:42": {
+"label": "autos",
+"in": 200,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:43": {
+"label": "med",
+"in": 118,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:44": {
+"label": "med",
+"in": 159,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:45": {
+"label": "autos",
+"in": 167,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:46": {
+"label": "autos",
+"in": 249,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:47": {
+"label": "space",
+"in": 242,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:48": {
+"label": "med",
+"in": 246,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:49": {
+"label": "space",
+"in": 134,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:50": {
+"label": "graphics",
+"in": 171,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:51": {
+"label": "med",
+"in": 237,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:52": {
+"label": "autos",
+"in": 246,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:53": {
+"label": "autos",
+"in": 211,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:54": {
+"label": "med",
+"in": 262,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:55": {
+"label": "space",
+"in": 249,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:56": {
+"label": "space",
+"in": 167,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:57": {
+"label": "space",
+"in": 237,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:58": {
+"label": "med",
+"in": 246,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:59": {
+"label": "autos",
+"in": 231,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:60": {
+"label": "graphics",
+"in": 244,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:61": {
+"label": "autos",
+"in": 235,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:62": {
+"label": "space",
+"in": 227,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:63": {
+"label": "graphics",
+"in": 280,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:64": {
+"label": "graphics",
+"in": 148,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:65": {
+"label": "autos",
+"in": 109,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:66": {
+"label": "space",
+"in": 183,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:67": {
+"label": "graphics",
+"in": 231,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:68": {
+"label": "graphics",
+"in": 353,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:69": {
+"label": "graphics",
+"in": 242,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:70": {
+"label": "autos",
+"in": 131,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:71": {
+"label": "autos",
+"in": 243,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:72": {
+"label": "graphics",
+"in": 172,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:73": {
+"label": "autos",
+"in": 165,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:74": {
+"label": "autos",
+"in": 111,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:75": {
+"label": "space",
+"in": 308,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:76": {
+"label": "autos",
+"in": 152,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:77": {
+"label": "graphics",
+"in": 277,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:78": {
+"label": "space",
+"in": 223,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:79": {
+"label": "graphics",
+"in": 277,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:80": {
+"label": "graphics",
+"in": 151,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:81": {
+"label": "space",
+"in": 261,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:82": {
+"label": "graphics",
+"in": 145,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:83": {
+"label": "autos",
+"in": 218,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:84": {
+"label": "autos",
+"in": 215,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:85": {
+"label": "space",
+"in": 141,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:86": {
+"label": "space",
+"in": 294,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:87": {
+"label": "med",
+"in": 255,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:88": {
+"label": "graphics",
+"in": 115,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:89": {
+"label": "autos",
+"in": 151,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:90": {
+"label": "graphics",
+"in": 114,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:91": {
+"label": "graphics",
+"in": 155,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:92": {
+"label": "autos",
+"in": 187,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:93": {
+"label": "graphics",
+"in": 127,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:94": {
+"label": "graphics",
+"in": 132,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:95": {
+"label": "autos",
+"in": 188,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:96": {
+"label": "space",
+"in": 294,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:97": {
+"label": "autos",
+"in": 128,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:98": {
+"label": "autos",
+"in": 192,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:99": {
+"label": "graphics",
+"in": 201,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:100": {
+"label": "space",
+"in": 132,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:101": {
+"label": "med",
+"in": 134,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:102": {
+"label": "autos",
+"in": 137,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:103": {
+"label": "graphics",
+"in": 307,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:104": {
+"label": "graphics",
+"in": 121,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:105": {
+"label": "graphics",
+"in": 170,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:106": {
+"label": "autos",
+"in": 248,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:107": {
+"label": "autos",
+"in": 120,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:108": {
+"label": "space",
+"in": 172,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:109": {
+"label": "space",
+"in": 171,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:110": {
+"label": "space",
+"in": 236,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:111": {
+"label": "space",
+"in": 138,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:112": {
+"label": "autos",
+"in": 147,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:113": {
+"label": "autos",
+"in": 175,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:114": {
+"label": "graphics",
+"in": 174,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:115": {
+"label": "space",
+"in": 244,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:116": {
+"label": "autos",
+"in": 197,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:117": {
+"label": "space",
+"in": 278,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:118": {
+"label": "graphics",
+"in": 260,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:119": {
+"label": "autos",
+"in": 252,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:120": {
+"label": "graphics",
+"in": 242,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:121": {
+"label": "graphics",
+"in": 183,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:122": {
+"label": "autos",
+"in": 225,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:123": {
+"label": "autos",
+"in": 230,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:124": {
+"label": "space",
+"in": 222,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:125": {
+"label": "med",
+"in": 202,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:126": {
+"label": "graphics",
+"in": 270,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:127": {
+"label": "med",
+"in": 137,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:128": {
+"label": "graphics",
+"in": 223,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:129": {
+"label": "med",
+"in": 155,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:130": {
+"label": "med",
+"in": 260,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:131": {
+"label": "space",
+"in": 262,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:132": {
+"label": "autos",
+"in": 157,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:133": {
+"label": "med",
+"in": 123,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:134": {
+"label": "graphics",
+"in": 243,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:135": {
+"label": "med",
+"in": 119,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:136": {
+"label": "autos",
+"in": 197,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:137": {
+"label": "autos",
+"in": 232,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:138": {
+"label": "graphics",
+"in": 276,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:139": {
+"label": "space",
+"in": 237,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:140": {
+"label": "autos",
+"in": 173,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:141": {
+"label": "autos",
+"in": 317,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:142": {
+"label": "med",
+"in": 232,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:143": {
+"label": "space",
+"in": 155,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:144": {
+"label": "graphics",
+"in": 231,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:145": {
+"label": "autos",
+"in": 268,
+"out": 5
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:146": {
+"label": "graphics",
+"in": 125,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:147": {
+"label": "med",
+"in": 182,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:148": {
+"label": "space",
+"in": 134,
+"out": 4
+},
+"global.anthropic.claude-haiku-4-5-20251001-v1:0:test:149": {
+"label": "space",
+"in": 126,
+"out": 4
+}
+}
