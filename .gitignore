@@ -7,3 +7,6 @@ dist/
 .venv/
 .env
 results.json
+
+# macOS
+.DS_Store
