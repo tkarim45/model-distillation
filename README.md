@@ -20,6 +20,13 @@ teacher's labels; both are scored against the held-out gold set. Teacher labels 
 `data/teacher_labels.json` (committed), so the exact numbers reproduce for free, deleting the cache
 re-runs the real Claude calls.
 
+
+## Architecture
+
+![architecture](docs/assets/architecture.png)
+
+*Interactive/exportable version: [`docs/assets/architecture.html`](docs/assets/architecture.html).*
+
 ## Results (real run: Claude Haiku 4.5 on Bedrock, 300 train / 150 test)
 
 | | accuracy on gold test |
