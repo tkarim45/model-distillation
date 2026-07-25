@@ -185,67 +185,101 @@
     <div class="header"><div class="header-row"><div class="pulse-dot"></div>
       <h1>Model Distillation — Architecture</h1>
       <div class="toolbar"><div class="toolbar-actions"><button onclick="copyAsImage(this)">📋 Copy</button><button onclick="downloadPNG(this)">🖼️ PNG</button><button onclick="downloadPDF(this)">📄 PDF</button></div><button class="toolbar-toggle" onclick="this.parentElement.classList.toggle('expanded')">⋯</button></div>
-    </div><p class="subtitle">Distills Claude's topic classification into a local TF-IDF+LogReg student (real Haiku teacher, 20-Newsgroups) — 81% of teacher accuracy for a one-time $0.10 labeling.</p></div>
-    <div class="diagram-container"><svg viewBox="0 0 1280 600">
+    </div><p class="subtitle">Distill Claude's topic-classification behaviour into a local TF-IDF + logistic-regression student, then measure the three numbers that decide whether distillation is worth it: how much quality survives, what an imperfect teacher costs, and when the student pays for itself.</p></div>
+    <div class="diagram-container"><svg viewBox="0 0 1390 755">
 <defs><marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/></marker><marker id="loop" markerWidth="11" markerHeight="8" refX="9" refY="4" orient="auto"><polygon points="0 0, 11 4, 0 8" fill="#22d3ee"/></marker><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/></pattern></defs>
-<rect width="1280" height="600" fill="url(#grid)"/>
-<rect x="24" y="150" width="540" height="300" rx="12" fill="rgba(251,191,36,0.04)" stroke="#fbbf24" stroke-width="1" stroke-dasharray="8,4"/>
-<text x="38" y="168" fill="#fbbf24" font-size="10" font-weight="600">① TEACH  ·  Claude labels once</text>
-<rect x="580" y="150" width="676" height="300" rx="12" fill="rgba(52,211,153,0.04)" stroke="#34d399" stroke-width="1" stroke-dasharray="8,4"/>
-<text x="594" y="168" fill="#34d399" font-size="10" font-weight="600">② DISTILL  ·  cheap local student</text>
-<line x1="215" y1="259" x2="250" y2="259" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-<line x1="420" y1="259" x2="455" y2="259" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-<text x="438" y="254" fill="#94a3b8" font-size="8.5" text-anchor="middle">labels</text>
-<path d="M 378 228 C 416 228, 416 126, 455 126" fill="none" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-<line x1="540" y1="157" x2="540" y2="228" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-<text x="540" y="194" fill="#94a3b8" font-size="8.5" text-anchor="middle">train</text>
-<line x1="625" y1="259" x2="660" y2="259" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-<path d="M 745 157 C 724 157, 724 228, 702 228" fill="none" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-<line x1="830" y1="259" x2="867" y2="259" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-<rect x="45" y="228" width="170" height="62" rx="7" fill="#0f172a"/>
-<rect x="45" y="228" width="170" height="62" rx="7" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
-<text x="130" y="248" fill="#fff" font-size="11" font-weight="600" text-anchor="middle">20-Newsgroups</text>
-<text x="130" y="264" fill="#94a3b8" font-size="9" text-anchor="middle">unlabeled</text>
-<rect x="250" y="228" width="170" height="62" rx="7" fill="#0f172a"/>
-<rect x="250" y="228" width="170" height="62" rx="7" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
-<text x="335" y="248" fill="#fff" font-size="11" font-weight="600" text-anchor="middle">Claude Teacher</text>
-<text x="335" y="264" fill="#94a3b8" font-size="9" text-anchor="middle">Haiku labels</text>
-<rect x="455" y="95" width="170" height="62" rx="7" fill="#0f172a"/>
-<rect x="455" y="95" width="170" height="62" rx="7" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-<text x="540" y="115" fill="#fff" font-size="11" font-weight="600" text-anchor="middle">Label Cache</text>
-<text x="540" y="131" fill="#94a3b8" font-size="9" text-anchor="middle">committed · reproducible</text>
-<rect x="455" y="228" width="170" height="62" rx="7" fill="#0f172a"/>
-<rect x="455" y="228" width="170" height="62" rx="7" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
-<text x="540" y="248" fill="#fff" font-size="11" font-weight="600" text-anchor="middle">Student</text>
-<text x="540" y="264" fill="#94a3b8" font-size="9" text-anchor="middle">TF-IDF + LogReg</text>
-<rect x="660" y="95" width="170" height="62" rx="7" fill="#0f172a"/>
-<rect x="660" y="95" width="170" height="62" rx="7" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-<text x="745" y="115" fill="#fff" font-size="11" font-weight="600" text-anchor="middle">Cost Model</text>
-<text x="745" y="131" fill="#94a3b8" font-size="9" text-anchor="middle">$0.10 · break-even ~300</text>
-<rect x="660" y="228" width="170" height="62" rx="7" fill="#0f172a"/>
-<rect x="660" y="228" width="170" height="62" rx="7" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1.5"/>
-<text x="745" y="248" fill="#fff" font-size="11" font-weight="600" text-anchor="middle">Eval</text>
-<text x="745" y="264" fill="#94a3b8" font-size="9" text-anchor="middle">student vs teacher</text>
-<rect x="867" y="228" width="170" height="62" rx="7" fill="#0f172a"/>
-<rect x="867" y="228" width="170" height="62" rx="7" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
-<text x="952" y="248" fill="#fff" font-size="11" font-weight="600" text-anchor="middle">Report</text>
-<text x="952" y="264" fill="#94a3b8" font-size="9" text-anchor="middle">recovers 81%</text>
-<text x="40" y="572" fill="#fff" font-size="10" font-weight="600">Legend</text>
-<rect x="106" y="563" width="15" height="10" rx="2" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1"/>
-<text x="126" y="572" fill="#94a3b8" font-size="8.5">Frontend/UI</text>
-<rect x="223" y="563" width="15" height="10" rx="2" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1"/>
-<text x="243" y="572" fill="#94a3b8" font-size="8.5">Backend</text>
-<rect x="312" y="563" width="15" height="10" rx="2" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1"/>
-<text x="332" y="572" fill="#94a3b8" font-size="8.5">Data/Index</text>
-<rect x="422" y="563" width="15" height="10" rx="2" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1"/>
-<text x="442" y="572" fill="#94a3b8" font-size="8.5">Model/Cloud</text>
-<rect x="539" y="563" width="15" height="10" rx="2" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1"/>
-<text x="559" y="572" fill="#94a3b8" font-size="8.5">Safety/Gate</text>
-<rect x="656" y="563" width="15" height="10" rx="2" fill="rgba(251, 146, 60, 0.3)" stroke="#fb923c" stroke-width="1"/>
-<text x="676" y="572" fill="#94a3b8" font-size="8.5">Pipeline</text>
+<rect width="1390" height="755" fill="url(#grid)"/>
+<rect x="77" y="59" width="1221" height="158" rx="12" fill="rgba(251,191,36,0.04)" stroke="#fbbf24" stroke-width="1" stroke-dasharray="8,4"/>
+<text x="91" y="78" fill="#fbbf24" font-size="10" font-weight="600">① THE TEACHER LABELS ONCE</text>
+<rect x="439" y="299" width="855" height="158" rx="12" fill="rgba(52,211,153,0.04)" stroke="#34d399" stroke-width="1" stroke-dasharray="8,4"/>
+<text x="453" y="318" fill="#34d399" font-size="10" font-weight="600">② TWO STUDENTS</text>
+<rect x="436" y="529" width="858" height="158" rx="12" fill="rgba(34,211,238,0.04)" stroke="#22d3ee" stroke-width="1" stroke-dasharray="8,4"/>
+<text x="450" y="548" fill="#22d3ee" font-size="10" font-weight="600">③ THE VERDICT</text>
+<line x1="297" y1="150" x2="459" y2="150" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<text x="378" y="143" fill="#cbd5e1" font-size="8.5" text-anchor="middle">4 categories</text>
+<line x1="621" y1="150" x2="795" y2="150" stroke="#fbbf24" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<text x="708" y="143" fill="#cbd5e1" font-size="8.5" text-anchor="middle">cleaned docs</text>
+<line x1="945" y1="150" x2="1108" y2="150" stroke="#a78bfa" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<text x="1027" y="143" fill="#cbd5e1" font-size="8.5" text-anchor="middle">labels + tokens</text>
+<path d="M 1190 191 C 865 191, 865 349, 540 349" fill="none" stroke="#34d399" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<line x1="615" y1="390" x2="785" y2="390" stroke="#34d399" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<text x="700" y="383" fill="#cbd5e1" font-size="8.5" text-anchor="middle">same model, gold labels</text>
+<line x1="955" y1="390" x2="1112" y2="390" stroke="#fb7185" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<text x="1033" y="383" fill="#cbd5e1" font-size="8.5" text-anchor="middle">the ceiling</text>
+<line x1="1190" y1="191" x2="1190" y2="349" stroke="#fb7185" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<text x="1236" y="273" fill="#cbd5e1" font-size="8.5" text-anchor="middle">cost + tokens</text>
+<line x1="540" y1="431" x2="540" y2="579" stroke="#22d3ee" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<text x="589" y="508" fill="#cbd5e1" font-size="8.5" text-anchor="middle">0.733 vs 0.907</text>
+<line x1="870" y1="431" x2="870" y2="579" stroke="#22d3ee" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<text x="914" y="508" fill="#cbd5e1" font-size="8.5" text-anchor="middle">n = 50 → 300</text>
+<line x1="1190" y1="431" x2="1190" y2="579" stroke="#22d3ee" stroke-width="1.6" marker-end="url(#arrowhead)"/>
+<text x="1228" y="508" fill="#cbd5e1" font-size="8.5" text-anchor="middle">break-even</text>
+<rect x="103" y="109" width="194" height="82" rx="7" fill="#0f172a"/>
+<rect x="103" y="109" width="194" height="82" rx="7" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="200" y="131" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">20 Newsgroups</text>
+<text x="200" y="149" fill="#94a3b8" font-size="9.0" text-anchor="middle">med · space · autos · graphics</text>
+<text x="200" y="164" fill="#94a3b8" font-size="9.0" text-anchor="middle">real gold labels</text>
+<rect x="459" y="109" width="162" height="82" rx="7" fill="#0f172a"/>
+<rect x="459" y="109" width="162" height="82" rx="7" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+<text x="540" y="131" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">data.py</text>
+<text x="540" y="149" fill="#94a3b8" font-size="9.0" text-anchor="middle">strip headers/footers</text>
+<text x="540" y="164" fill="#94a3b8" font-size="9.0" text-anchor="middle">truncate to bound tokens</text>
+<rect x="795" y="109" width="150" height="82" rx="7" fill="#0f172a"/>
+<rect x="795" y="109" width="150" height="82" rx="7" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+<text x="870" y="131" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">Claude Haiku 4.5</text>
+<text x="870" y="149" fill="#94a3b8" font-size="9.0" text-anchor="middle">zero-shot classifier</text>
+<text x="870" y="164" fill="#94a3b8" font-size="9.0" text-anchor="middle">0.907 on gold test</text>
+<rect x="1108" y="109" width="163" height="82" rx="7" fill="#0f172a"/>
+<rect x="1108" y="109" width="163" height="82" rx="7" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+<text x="1190" y="131" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">teacher_labels.json</text>
+<text x="1190" y="149" fill="#94a3b8" font-size="9.0" text-anchor="middle">committed = reproducible</text>
+<text x="1190" y="164" fill="#94a3b8" font-size="9.0" text-anchor="middle">delete it to re-pay</text>
+<rect x="465" y="349" width="150" height="82" rx="7" fill="#0f172a"/>
+<rect x="465" y="349" width="150" height="82" rx="7" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+<text x="540" y="371" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">Distilled Student</text>
+<text x="540" y="389" fill="#94a3b8" font-size="9.0" text-anchor="middle">TF-IDF + LogReg</text>
+<text x="540" y="404" fill="#94a3b8" font-size="9.0" text-anchor="middle">0.733 on gold test</text>
+<rect x="785" y="349" width="170" height="82" rx="7" fill="#0f172a"/>
+<rect x="785" y="349" width="170" height="82" rx="7" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1.5"/>
+<text x="870" y="371" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">Gold-Trained Ceiling</text>
+<text x="870" y="389" fill="#94a3b8" font-size="9.0" text-anchor="middle">same student, gold labels</text>
+<text x="870" y="404" fill="#94a3b8" font-size="9.0" text-anchor="middle">0.787</text>
+<rect x="1112" y="349" width="156" height="82" rx="7" fill="#0f172a"/>
+<rect x="1112" y="349" width="156" height="82" rx="7" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1.5"/>
+<text x="1190" y="371" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">benchmark.py</text>
+<text x="1190" y="389" fill="#94a3b8" font-size="9.0" text-anchor="middle">tax · cost · break-even</text>
+<text x="1190" y="404" fill="#94a3b8" font-size="9.0" text-anchor="middle">learning curve</text>
+<rect x="462" y="579" width="156" height="82" rx="7" fill="#0f172a"/>
+<rect x="462" y="579" width="156" height="82" rx="7" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="540" y="601" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">The gap decomposes</text>
+<text x="540" y="619" fill="#94a3b8" font-size="9.0" text-anchor="middle">0.054 teacher noise</text>
+<text x="540" y="634" fill="#94a3b8" font-size="9.0" text-anchor="middle">0.12 student capacity</text>
+<rect x="782" y="579" width="177" height="82" rx="7" fill="#0f172a"/>
+<rect x="782" y="579" width="177" height="82" rx="7" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="870" y="601" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">Still climbing at 300</text>
+<text x="870" y="619" fill="#94a3b8" font-size="9.0" text-anchor="middle">0.520 → 0.733 over n</text>
+<text x="870" y="634" fill="#94a3b8" font-size="9.0" text-anchor="middle">label-limited</text>
+<rect x="1112" y="579" width="156" height="82" rx="7" fill="#0f172a"/>
+<rect x="1112" y="579" width="156" height="82" rx="7" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+<text x="1190" y="601" fill="#fff" font-size="11.5" font-weight="600" text-anchor="middle">Economics</text>
+<text x="1190" y="619" fill="#94a3b8" font-size="9.0" text-anchor="middle">$0.10 one-time labeling</text>
+<text x="1190" y="634" fill="#94a3b8" font-size="9.0" text-anchor="middle">break-even ~300 docs</text>
+<text x="40" y="727" fill="#fff" font-size="10" font-weight="600">Legend</text>
+<rect x="106" y="718" width="15" height="10" rx="2" fill="rgba(8, 51, 68, 0.4)" stroke="#22d3ee" stroke-width="1"/>
+<text x="126" y="727" fill="#94a3b8" font-size="8.5">Frontend/UI</text>
+<rect x="210.1" y="718" width="15" height="10" rx="2" fill="rgba(6, 78, 59, 0.4)" stroke="#34d399" stroke-width="1"/>
+<text x="230.1" y="727" fill="#94a3b8" font-size="8.5">Backend</text>
+<rect x="293.79999999999995" y="718" width="15" height="10" rx="2" fill="rgba(76, 29, 149, 0.4)" stroke="#a78bfa" stroke-width="1"/>
+<text x="313.79999999999995" y="727" fill="#94a3b8" font-size="8.5">Data/Index</text>
+<rect x="392.79999999999995" y="718" width="15" height="10" rx="2" fill="rgba(120, 53, 15, 0.3)" stroke="#fbbf24" stroke-width="1"/>
+<text x="412.79999999999995" y="727" fill="#94a3b8" font-size="8.5">Model/Cloud</text>
+<rect x="496.9" y="718" width="15" height="10" rx="2" fill="rgba(136, 19, 55, 0.4)" stroke="#fb7185" stroke-width="1"/>
+<text x="516.9" y="727" fill="#94a3b8" font-size="8.5">Eval/Gate</text>
+<rect x="590.8" y="718" width="15" height="10" rx="2" fill="rgba(30, 41, 59, 0.5)" stroke="#94a3b8" stroke-width="1"/>
+<text x="610.8" y="727" fill="#94a3b8" font-size="8.5">External</text>
 </svg></div>
-    <div class="cards"><div class="card"><div class="card-header"><div class="card-dot amber"></div><h3>Teach</h3></div><ul><li>• real Claude Haiku teacher on Bedrock</li><li>• labels 20-Newsgroups once</li><li>• committed label cache = reproducible</li></ul></div><div class="card"><div class="card-header"><div class="card-dot emerald"></div><h3>Distill</h3></div><ul><li>• TF-IDF + LogReg student, local + free</li><li>• trained on the teacher's labels</li><li>• measured-token cost model, break-even ~300 docs</li></ul></div><div class="card"><div class="card-header"><div class="card-dot cyan"></div><h3>Finding</h3></div><ul><li>• student recovers 81% of teacher accuracy for $0.10</li><li>• gap = 0.054 teacher-noise tax + ~0.12 student ceiling</li><li>• so the fix is a stronger student, not cleaner labels</li></ul></div></div>
-    <p class="footer">model-distillation · anthropic[bedrock] teacher · scikit-learn student · measured-token cost model</p>
+    <div class="cards"><div class="card"><div class="card-header"><div class="card-dot amber"></div><h3>A real task with real gold labels</h3></div><ul><li>• a 4-category slice of 20 Newsgroups with headers, footers and quotes stripped, so it is genuine content classification</li><li>• the teacher labels each document zero-shot; the student learns ONLY from the teacher's labels; both are scored against held-out gold</li><li>• teacher labels are cached to a committed JSON file, so the exact numbers reproduce for free and deleting the cache re-pays for the real Claude calls</li><li>• cost is computed from measured token usage, not estimated: 90.8k in / 1.9k out for $0.10</li></ul></div><div class="card"><div class="card-header"><div class="card-dot emerald"></div><h3>The gold-trained student is what makes the result readable</h3></div><ul><li>• training the SAME student on gold labels gives the capacity ceiling, which is the control the headline number needs</li><li>• teacher 0.907, distilled student 0.733, gold-trained ceiling 0.787, and the teacher's own label accuracy on the train pool is 0.933</li></ul></div><div class="card"><div class="card-header"><div class="card-dot cyan"></div><h3>Three findings</h3></div><ul><li>• the cheap student recovered 81% of Claude's accuracy for a one-time $0.10, and break-even is about 300 documents: label that many, and every query after is free</li><li>• most of the gap is the student's CAPACITY, not the teacher's noise: the 0.174 shortfall decomposes into 0.054 of distillation tax and about 0.12 of student simplicity, and only the second is worth fixing</li><li>• the student did not beat its teacher here, because denoising wins only when teacher noise rather than student capacity is the binding constraint</li><li>• the learning curve was still rising at 300 examples, so the run is label-limited rather than saturated</li></ul></div></div>
+    <p class="footer">model-distillation · anthropic[bedrock] Claude Haiku 4.5 teacher · scikit-learn student · 20 Newsgroups · measured-token cost model</p>
   </div>
 <script>
     async function copyAsImage(btn) {
